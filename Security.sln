@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "STS", "STS", "{914CBEF5-DCAA-41E0-A42E-88A05597B2A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security.IdentityServer", "Security.IdentityServer\Security.IdentityServer.csproj", "{AA37A86B-9AE9-4EDB-A089-64002CE9665B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{18BEEC8E-8CB4-44FB-B489-856D531E21F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleClient", "ExampleClient\ExampleClient.csproj", "{9BCE94FC-8593-4D9B-BBD8-1903F828339B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA37A86B-9AE9-4EDB-A089-64002CE9665B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA37A86B-9AE9-4EDB-A089-64002CE9665B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA37A86B-9AE9-4EDB-A089-64002CE9665B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA37A86B-9AE9-4EDB-A089-64002CE9665B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCE94FC-8593-4D9B-BBD8-1903F828339B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCE94FC-8593-4D9B-BBD8-1903F828339B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCE94FC-8593-4D9B-BBD8-1903F828339B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCE94FC-8593-4D9B-BBD8-1903F828339B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA37A86B-9AE9-4EDB-A089-64002CE9665B} = {914CBEF5-DCAA-41E0-A42E-88A05597B2A5}
+		{9BCE94FC-8593-4D9B-BBD8-1903F828339B} = {18BEEC8E-8CB4-44FB-B489-856D531E21F4}
+	EndGlobalSection
+EndGlobal
